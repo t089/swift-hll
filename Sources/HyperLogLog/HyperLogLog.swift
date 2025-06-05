@@ -122,12 +122,8 @@ public struct HyperLogLog<Hasher: CustomHasher> {
     @inlinable
     public mutating func insertRaw(_ hash: UInt32) {
         let index = Int(hash >> (32 - self.precision.rawValue))
-
-        // Use a different hash function for the remaining bits to avoid bias
         let remainingBits = hash << self.precision.rawValue | (1 << (self.precision.rawValue - 1))
-
         let zeros = UInt32(1 + remainingBits.leadingZeroBitCount)
-
         registers.setGreater(index: index, value: zeros)
     }
 
