@@ -33,7 +33,7 @@ targets: [
     .target(
         name: "MyTarget",
         dependencies: [
-            .product(name: "HyperLogLog", package: "swift-hll"),
+            .product(name: "HyperLogLog", package: "swift-hyperloglog"),
         ]
     ),
 ]
