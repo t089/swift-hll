@@ -1,4 +1,4 @@
-# swift-hll
+# swift-hyperloglog
 
 A Swift implementation of the HyperLogLog algorithm for efficient cardinality estimation. This library provides a memory-efficient way to estimate the number of unique elements in a large dataset with high accuracy.
 
@@ -21,7 +21,7 @@ Add the package to your `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/t089/swift-hll.git", from: "0.0.1")
+    .package(url: "https://github.com/t089/swift-hyperloglog.git", from: "0.0.2")
 ]
 ```
 

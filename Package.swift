@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "swift-hll",
+    name: "swift-hyperloglog",
     platforms: [
         .macOS(.v13),
     ],
