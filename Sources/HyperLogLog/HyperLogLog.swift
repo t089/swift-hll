@@ -4,6 +4,8 @@
     import Glibc
 #elseif canImport(Musl)
     import Musl
+#elseif canImport(WASILibc)
+    import WASILibc
 #endif
 
 /// A protocol for hashing values.
