@@ -9,7 +9,7 @@ import Testing
 #endif
 
 @Test func example() async throws {
-    var hll = HyperLogLog(precision: 10)
+    var hll = HyperLogLog(precision: .highest)
     hll.insert("a")
     hll.insert("b")
     hll.insert("c")
@@ -21,7 +21,7 @@ import Testing
 }
 
 @Test func example2() async throws {
-    var hll = HyperLogLog(precision: 10)
+    var hll = HyperLogLog(precision: .highest)
     hll.insert("a")
     hll.insert("b")
     hll.insert("b")
