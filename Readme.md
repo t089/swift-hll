@@ -1,5 +1,7 @@
 # swift-hyperloglog
 
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Ft089%2Fswift-hyperloglog%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/t089/swift-hyperloglog) [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Ft089%2Fswift-hyperloglog%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/t089/swift-hyperloglog)
+
 A Swift implementation of the HyperLogLog algorithm for efficient cardinality estimation. This library provides a memory-efficient way to estimate the number of unique elements in a large dataset with high accuracy.
 
 This implementation is based on the paper "HyperLogLog: the analysis of a near-optimal cardinality estimation algorithm" by Philippe Flajolet, Éric Fusy, Olivier Gandouet, and Frédéric Meunier (2007).
